@@ -1,4 +1,5 @@
 * Konrad Pempera
+     * LINK DO PREZENTACJI NA YOUTUBE https://youtu.be/jv_FVYJS_p0
      * Celem projektu było oprogramowanie gry "odkrywcy skarbow"
      * Gra polega na zebraniu skarbów o jak największej wartości
      * w grze uczestniczą znani intelgentni gracze, komunkujący się z serwerem gry za pomocą Socketów
@@ -19,3 +20,5 @@
      * Aplikacja została napisana w Java Swing.
      * aplikacja została skompliwona za pomocą wywołania z katalogu gdzie znajduje się aplikacja następujących poleceń:
      * javac -d bin src\module-info.java src\gamer\Gamer.java src\gamer\GamerController.java src\gamer\GamerFrame.java src\gamer\VisualisationPanel.java src\model\GameMap.java src\model\MessageQueue.java src\model\MessageWithAccountQueue.java src\model\MessageWithAccount.java src\model\Possition.java src\model\SocketListenerWithAccount.java src\model\Treassure.java src\server\Server.java src\server\ServerController.java src\server\ServerFrame.java src\server\Statistic.java src\server\VisualisationServerPanel.java src\SocketPackage\SocketSender.java src\threads\GamerListenerWithQueue.java src\threads\GamerThread.java src\threads\LoginAtServerListener.java src\threads\ServerListenerWithQueue.java src\threads\ServerThread.javac src\tools\GamerAccount.java src\tools\GamerMenager.java
+     * Aby uruchomić aplikacje serwera należy wywołać z linii poleceń komendę java -p Game.jar -m Game1/server.Sgerver
+     * Aby uruchomić aplikacje gracza należy wywołać z linii poleceń komendę java -p Game.jar -m Game1/gamer.Gamer
